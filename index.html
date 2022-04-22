@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dave Quah (@Milleus)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/global.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W6QZZYV2W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5W6QZZYV2W');
+  </script>
+</head>
+
+<body>
+  <div class="container grid">
+    <main class="flex bg-blue-600">
+      <h1 class="sr-only">Stats preview card component</h1>
+      <picture class="picture bg-violet-400" aria-hidden="true">
+        <source srcset="/assets/image-header-desktop.jpg" media="(min-width: 65em)" />
+        <img src="/assets/image-header-mobile.jpg" alt="" />
+      </picture>
+
+      <div class="intro flex">
+        <h2 class="text-neutral-100 fs-900 fw-700">
+          Get <span class="text-violet-400">insights</span> that help your business grow.
+        </h2>
+        <p>
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+        <ul class="flex text-neutral-300 ff-sans-2 fs-300 uppercase">
+          <li>
+            <span class="text-neutral-100 ff-sans fs-800 fw-700 normal-case">10k+</span> companies
+          </li>
+          <li>
+            <span class="text-neutral-100 ff-sans fs-800 fw-700">314</span> templates
+          </li>
+          <li>
+            <span class="text-neutral-100 ff-sans fs-800 fw-700">12m+</span> queries
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <p class="text-center">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+          Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/Milleus">Dave Quah (@Milleus)</a>.
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
