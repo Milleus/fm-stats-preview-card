@@ -34,7 +34,7 @@ Mobile view
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-Hka1FIeHq](https://www.frontendmentor.io/solutions/stats-preview-card-component-Hka1FIeHq)
-- Live Site URL: [https://Milleus.github.io/fm-single-price-grid/](https://Milleus.github.io/fm-single-price-grid/)
+- Live Site URL: [https://Milleus.github.io/fm-stats-preview-card/](https://Milleus.github.io/fm-stats-preview-card/)
 
 ## My process
 
